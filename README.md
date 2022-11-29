@@ -76,10 +76,6 @@ fn main() {
 }
 ```
 
-<p align="center">
-    <img src="https://media.tenor.com/Si0MnDghJ-gAAAAC/shiro-no-game-no-life.gif" width="800" alt="Shiro No Game No Life GIF - Shiro No Game No Life Anime GIFs" style="max-width: 800px"/>
-</p>
-
 <p align="inline">
    <img src="https://github-readme-stats.vercel.app/api?username=aadi58002&show_icons=true&theme=dracula" alt="Aditya's GitHub stats">
 </p>
