@@ -1,7 +1,5 @@
 <img src="./name.svg" alt="Aditya Yadav" style="display: flex;align-items: center;justify-content: center;">
 
-<p>You can actual run the below code with the rustc main.rs name command<p>
-
 ```rust
 fn languages() {
     let know_and_frequent_use = vec!["Rust", "Python", "JavaScript", "TypeScript", "Bash"];
