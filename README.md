@@ -36,5 +36,5 @@ fn interests() {
 </p>
 
 <picture>
-  <img src="/github-metrics.svg" alt="Metrics">
+  <img width="100%" src="/github-metrics.svg" alt="Metrics">
 </picture>
