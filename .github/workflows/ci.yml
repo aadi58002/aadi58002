@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: aadi58002/metrics@latest
+      - uses: aadi58002/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
