@@ -1,4 +1,4 @@
-name: Calendar
+name: aadi58002/metrics
 
 on:
   schedule: # execute every 12 hours
@@ -15,8 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: aadi58002/metrics@latest
         with:
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header
           plugin_isocalendar: yes
           plugin_languages: yes
