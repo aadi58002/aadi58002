@@ -35,4 +35,6 @@ fn interests() {
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aadi58002&layout=compact&theme=dracula" alt="Aditya's Languages used">
 </p>
 
-<img align="center" src="https://raw.githubusercontent.com/aadi58002/aadi58002/output/snake.svg" alt="Snake animation" />
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>

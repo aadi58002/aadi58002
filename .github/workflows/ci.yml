@@ -1,0 +1,24 @@
+name: Calendar
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+    - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          base: header
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_stars: yes
+          config_order: base.header, isocalendar, languages, stars
